@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>R.G.B</title>
+  <subtitle>Random Gibberish Blog</subtitle>
+  <link href="https://random-gibberish-blog.netlify.app/feed.xml" rel="self"/>
+  <link href="https://random-gibberish-blog.netlify.app/"/>
+  <updated>2021-12-13T00:00:00Z</updated>
+  <id>https://random-gibberish-blog.netlify.app/</id>
+  <author>
+    <name>Patrick</name>
+    <email></email>
+  </author>
+  
+  
+  <entry>
+    <title>&#39;Hello World&#39;</title>
+    <link href="https://random-gibberish-blog.netlify.app/posts/Hello-World/"/>
+    <updated>2021-12-13T00:00:00Z</updated>
+    <id>https://random-gibberish-blog.netlify.app/posts/Hello-World/</id>
+
+   
+    <summary>
+  
+    So, I want to do stuff, I decided. The thing is, stuff is a pretty broad concept and I am not sure what exactly I want this stuff to be - yet. But consuming stuff for nearly three decades now, I think it is time to finally create some stuff myself. Lets see how it goes.
+  
+</summary>
+  </entry>
+  
+</feed>
