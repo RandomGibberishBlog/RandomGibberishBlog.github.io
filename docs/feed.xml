@@ -4,7 +4,7 @@
   <subtitle>Random Gibberish Blog</subtitle>
   <link href="https://randomgibberishblog.github.io//feed.xml" rel="self"/>
   <link href="https://randomgibberishblog.github.io/"/>
-  <updated>2025-01-23T00:00:00Z</updated>
+  <updated>2025-02-05T00:00:00Z</updated>
   <id>https://randomgibberishblog.github.io/</id>
   <author>
     <name>Patrick</name>
@@ -22,6 +22,22 @@
     <summary>
   
     So, I want to do stuff, I decided. The thing is, stuff is a pretty broad concept and I am not sure what exactly I want this stuff to be - yet. But consuming stuff for nearly three decades now, I think it is time to finally create some stuff myself. Lets see how it goes.
+  
+</summary>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Enter the Indie Web</title>
+    <link href="https://randomgibberishblog.github.io/posts/indieWeb/"/>
+    <updated>2025-02-05T00:00:00Z</updated>
+    <id>https://randomgibberishblog.github.io/posts/indieWeb/</id>
+
+   
+    <summary>
+  
+    The Internet is dead, long live the Internet!
   
 </summary>
   </entry>
