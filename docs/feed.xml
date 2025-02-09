@@ -4,7 +4,7 @@
   <subtitle>Random Gibberish Blog</subtitle>
   <link href="https://randomgibberishblog.github.io//feed.xml" rel="self"/>
   <link href="https://randomgibberishblog.github.io/"/>
-  <updated>2025-02-10T00:00:00Z</updated>
+  <updated>2025-02-09T00:00:00Z</updated>
   <id>https://randomgibberishblog.github.io/</id>
   <author>
     <name>Patrick</name>
@@ -31,13 +31,29 @@
   <entry>
     <title>Enter the Indie Web</title>
     <link href="https://randomgibberishblog.github.io/posts/indieWeb/"/>
-    <updated>2025-02-10T00:00:00Z</updated>
+    <updated>2025-02-05T00:00:00Z</updated>
     <id>https://randomgibberishblog.github.io/posts/indieWeb/</id>
 
    
     <summary>
   
     The Internet is dead, long live the Internet!
+  
+</summary>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>The virtuality of reality</title>
+    <link href="https://randomgibberishblog.github.io/posts/The-virtuality-of-reality/"/>
+    <updated>2025-02-09T00:00:00Z</updated>
+    <id>https://randomgibberishblog.github.io/posts/The-virtuality-of-reality/</id>
+
+   
+    <summary>
+  
+    Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality Open your eyes, look up to the skies and see
   
 </summary>
   </entry>
