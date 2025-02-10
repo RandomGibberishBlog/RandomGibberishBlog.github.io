@@ -2,7 +2,7 @@
 <html lang="en"> 
 <head>  
   <meta property="og:image" content="/images/og_RGB.png" />
-  <meta property="og:title" content="RGB: quality content: social" />
+  <meta property="og:title" content="RGB: wait, this isn&#39;t where I parked my car..." />
 
 
   <link rel="stylesheet" href="/css/style.css" />
@@ -64,127 +64,58 @@
   
     <div class=" text-sm text-green-400 font-mono mb-4">
       
-        <a href="/recommendations/social/">// <h2 class="inline">quality content: social</h2></a>
+        // <h2 class="inline">wait, this isn&#39;t where I parked my car...
       
          
       </div>
   
 
-    <div class="font-mono grid lg:grid-cols-6 lg:grid-rows-1 lg:gap-3 ">
     
-    <div class="lg:col-span-6 lg:col-start-1 lg:row-start-1">
-<div class="w-full bg-yellow-50 bg-opacity-5 rounded-md p-2 mb-4">
-    <span class="block mb-1 text-green-400 text-sm">$ TOPICS:</span>
-    
-    <div class="ml-5">
-    
+<div class="w-full bg-opacity-10 mt-20 grid place-content-center font-mono" >
 
-    
-    <a 
-    href="/recommendations/tech" 
-    class="text-cyan-200 hover:text-cyan-300">tech</a>,
-    
-    
 
-    
-    <a 
-    href="/recommendations/news" 
-    class="text-cyan-200 hover:text-cyan-300">news</a>,
-    
-    
-
-    
-    <a 
-    href="/recommendations/misc" 
-    class="text-cyan-200 hover:text-cyan-300">misc</a>,
-    
-    
-
-    
-    <a 
-    href="/recommendations/gameDev" 
-    class="text-cyan-200 hover:text-cyan-300">gameDev</a>,
-    
-    
-
-    
-    <a 
-    href="/recommendations/algorithms" 
-    class="text-cyan-200 hover:text-cyan-300">algorithms</a>,
-    
-    
-
-    
-    <a 
-    href="/recommendations/math" 
-    class="text-cyan-200 hover:text-cyan-300">math</a>,
-    
-    
-
-    
-    <a 
-    href="/recommendations/fediverse" 
-    class="text-cyan-200 hover:text-cyan-300">fediverse</a>,
-    
-    
-
-    
-    <span 
-     
-    class="text-cyan-300 border-b border-cyan-300 border-opacity-30 font-extrabold ">social</span>
-    
-    
+  <span class="text-center block font-mono text-5xl mb-10 border-b border-green-500 sm:w-1/2 place-self-center border-opacity-80 border-dotted font-extrabold text-green-500">- 404 -</span>
+    <div class="text-justify font-mono text-lg mt-2">
+        You open the door and enter the room, it looks like it wasn't used in ages. 
+        You can't really tell if there maybe is something of interest in this room. 
+        You decide to stay and have a look around...
+        <i class="text-xl block mt-2 text-green-400">Do a perception check...</i>
     </div>
 
-    <div class="w-full align-text-bottom text-right pt-2">
-    
-    <a href="/recommendations/" class="text-pink-500 hover:text-pink-400 text-sm">
-    &gt show all topics</a>
-    
+    <div class="h-50 w-full flex justify-center mb-10">
+        <button id="rollDice" class="mt-5 bg-gray-900 font-bold hover:bg-cyan-300  hover:text-gray-900  border border-cyan-300 py-2 px-4 rounded ">Roll the dice</button>
+        <a id="wayBack" href="/" class="mt-5 hidden bg-gray-900 font-bold hover:bg-cyan-300  hover:text-gray-900  border border-cyan-300 py-2 px-4 rounded ">Go back to the main room</a>
     </div>
+    <div id="diceResult" class="mt-2 text-center font-mono text-2xl text-green-400"></div>
+    <div id="retryMessage" class="mt-2 text-lg text-justify font-mono hidden">
+        You can't really tell if there's maybe something of interest in this room after all. You decide to stay for a while and have another look...</div>
+    <div id="successMessage" class="mt-2 text-lg text-justify font-mono hidden"> 
+        <span class="block my-2 text-green-400">SUCCESS!</span>
+        You find an old lexikon, an entry is bookmarked. It's the definition of an empty mundane room.  
+        You read the description: <i>It's a room that has no purpose, no story, no meaning. It's just there.</i> 
+        Next to the entry you see a picture of this particular room.
+        You are now certain, that you are in an empty mundane room. <br>
+        
+    </div>
+
+    <script>
+        document.getElementById('rollDice').addEventListener('click', function() {
+            const result = Math.floor(Math.random() * 20) + 1;
+            document.getElementById('diceResult').innerText = 'You rolled: ' + result;
+            if (result > 8) {
+                document.getElementById('rollDice').style.display = 'none';
+                document.getElementById('wayBack').style.display = 'block';
+                document.getElementById('retryMessage').style.display = 'none';
+                document.getElementById('successMessage').style.display = 'block';
+            } else {
+                document.querySelector('.mt-5').style.display = 'block';
+                document.getElementById('retryMessage').style.display = 'block';
+            }
+        });
+    </script>
+
+
 </div>
-
-
-
-
-
-
-<div class=" w-full mt-2 mb-4 pt-1 p-2 font-mono">
-
-      <span class=" block place-self-start font-bold font-mono text-xl leading-none"> fediverse.party </span>
-
-      <div class=" grid lg:ml-2 pt-2 mt-2 border-l border-green-400">
-          <div class="ml-2 mb-1 sm:mb-0 sm:ml-3 lg:ml-5 text-xs font-thin">
-            <span class="text-green-400">.topics:</span>
-            [<a 
-    href="/recommendations/fediverse" 
-    class="text-cyan-200 hover:text-cyan-300"> 'fediverse'</a>,
-    
-    '<span 
-    class="font-extrabold border-b border-opacity-30 border-cyan-300  text-cyan-300">social</span>'
-    ]
-          </div>
-
-          <div class="prose prose-sm lg:prose ml-2 sm:ml-5 lg:ml-10 my-2">
-          fediverse.party provides a nice overview for you to take your first steps into the fediverse. It is a great starting point to learn about the different platforms and their features.
-          </div>
-
-        </div>
-        <a  href="https://fediverse.party/" 
-              target="_blank" 
-              class="lg:ml-2 text-sm place-self-end text-pink-500 hover:text-pink-400"> 
-                &gt visit fediverse.party 
-          </a>
-      </div>
-
-
-    </div>
-</div>
-
-
-
-
- 
 
   </div>
 
