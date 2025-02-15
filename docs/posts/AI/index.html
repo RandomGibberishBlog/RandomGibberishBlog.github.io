@@ -94,73 +94,81 @@
             
           
         
+          <!-- exclude the 'post'-Tag and limit output to 5 -->
+            
+            
+          
+        
 
       <!-- output created taglist -->
         <span class=" text-xs font-thin text-cyan-200">
+          
+            <a href="/tags/LLM" class="hover:text-cyan-300"> #LLM </a>
           
             <a href="/tags/AI" class="hover:text-cyan-300"> #AI </a>
           
             <a href="/tags/tech" class="hover:text-cyan-300"> #tech </a>
           
-            <a href="/tags/life" class="hover:text-cyan-300"> #life </a>
+            <a href="/tags/society" class="hover:text-cyan-300"> #society </a>
           
         </span>
   </div>
 
   <div class="prose prose-sm sm:prose sm:ml-10">
-        <p>I don't know, but have you heard of a thing called &quot;generative AI&quot; lately?
-It seems to be a thing now.
-Since the outputs of AI are getting more and more resemblance with the respective thing it tries to imitate, it is able to solve more and more tasks that prior to its invention needed human brain power to be tackled.
-Historically speaking, changes in the way of production like this tend to have some influence on a lot of other things.</p>
-<p>In this Article we will have a look on, what an AI is, how it is used and what effects it has on the human and maybe society.
-In the end i will play out a fun little scenario how to overcome knowledge with AI :D</p>
+        <p>Have you heard of a thing called &quot;generative AI&quot; lately?
+It seems to be a thing right now.
+Since the AI content is getting closer and closer to the respective thing it tries to imitate, AI will be able to solve more and more tasks that prior to its invention needed human brain power to be tackled.
+Historically speaking, changes like this to the way of production tend to have some influence on a lot of things within a society.</p>
+<p>In this Article we will have a brief look on, what an AI is, how it is used and what effects it has on the human and  society.
+In the end i will play out a 'fun' little scenario how to overcome knowledge with AI :D
+Let's get started!</p>
 <h2>what even is AI?<a href="#d"><sup class="text-cyan-200 hover:text-cyan-300">d</sup></a></h2>
 <p><em>AI</em> (which, for the uninitiated, stands for <strong>A</strong>rtificial <strong>I</strong>ntelligence) is a conglomerate of different technical approaches to make a thing that is not biologically alive think.
-That sounds a lot like necromancy - which has, in spite of it's name, nothing to do with romance<a href="#a"><sup class="text-cyan-200 hover:text-cyan-300">a</sup></a>.
-The approach that is all the buzz (and the focus of this post) at the time is the idea of <strong>L</strong>arge <strong>L</strong>anguage <strong>M</strong>odels (or LLM's).
-If you zoom out enough, the idea becomes pretty simple: you have (a shit ton of) data, you have an algorithm<a href="#b"><sup class="text-cyan-200 hover:text-cyan-300">b</sup></a> and (another shit ton of) computing power.
+(That sounds a lot like necromancy - which has, in spite of it's name, nothing to do with romance<a href="#a"><sup class="text-cyan-200 hover:text-cyan-300">a</sup></a>.)
+The approach that is all the buzz at the time is the idea of <strong>L</strong>arge <strong>L</strong>anguage <strong>M</strong>odels (or LLM's).</p>
+<p>If you zoom out enough, the idea becomes pretty simple: you have (a shit ton of) data, you have an algorithm<a href="#b"><sup class="text-cyan-200 hover:text-cyan-300">b</sup></a> and (another shit ton of) computing power.
 If you have gathered those ingredients, you may now make the data digestible for the algorithm.</p>
 <p>As we all know, a function (and the algorithm happens to be one) transforms an input parameter into output data.
-Spoken language is chaotic and therefore as bad as it gets to be fed into a mathematical function as input.
+Spoken language is rather chaotic and therefore as bad as it gets to be fed into a mathematical function as input.
 (This circumstance tends to make most functions a bit nervous, they usually like to operate with certainty.)
 So to make it a bit more cozy for the function the initial input is modified by splitting it into tokens, which represent the elements of the input - but not in a, for the function, frightening way.<a href="#h"><sup class="text-cyan-200 hover:text-cyan-300">h</sup></a>
 This state of the input however now makes most humans a bit nervous - this is just how things are sometimes.
-The algorithm is then thrown into the computing power and force-fed it the data until it does what you want - this process is called training the model.<a href="#c"><sup class="text-cyan-200 hover:text-cyan-300">c</sup></a></p>
+The algorithm is then thrown into the gathered computing power and force-fed it the data until it does what you want - this process is called training the model.<a href="#c"><sup class="text-cyan-200 hover:text-cyan-300">c</sup></a></p>
 <p>So but what do we actually have now?<br>
 <em>Glad you asked - let me elaborate.</em></p>
-<p>The algorithm is, based on the training data, now capable of deciding if a certain sequence of tokens is more likely than another to be part of the training data.
-Now it is able to operate on input that was not part of the initial training data but is considered to be part of the overall pool the trainingsdata was taken from.
+<p>The algorithm is now capable of deciding if a certain sequence of tokens is more likely than another to apear in the training data.
+It is able to operate on input that was not part of the initial training data but is considered to be part of the overall pool the trainingsdata was taken from.
 For example, if the model was trained on the English language, it can operate on an English sentence that it did not know prior to the input and generate a convincing output.
 This is the reason, it is often attributed with understanding the input - which is wrong.
-First of all it is likely the LLM was trained on a sentence just like the input - since it was trained on the <em>entire</em> internet. And second to that it uses statistics to generate a likely answer, not understanding and reasoning.
-It produces <em>good enough</em> results most of the time, and therefore it seems like it is sentient.</p>
+It operates on the tokens and uses statistics to generate a likely answer, not understanding and reasoning.
+It produces <em>good enough</em><a href="#i"><sup class="text-cyan-200 hover:text-cyan-300">i</sup></a> results most of the time, and therefore it seems like it is sentient.</p>
 <p><div>
 <span class="text-green-500 text-md font-semibold">The important part here is: </span>
 <div class="mt-0 px-2 pt-1 border-l border-green-500 text-md font-semibold">
-The LLM is neither able to understand the meaning of the input nor the meaning of it's output. It gives the most likely chain of tokes, regarding the input tokens, back. If the output doesn't make sense, the LLM does not hallucinate - it lacks the ability to do so - the algorithm just calculated nonsense and made an error. The quality of the output is directly tied to the quality of the training data; the most statistically likely outcome will neither be necessarily correct nor a novelty
+The LLM is neither able to understand the meaning of the input nor the meaning of it's output. It gives the most likely chain of tokes, regarding the input tokens, back. If the output doesn't make sense, the LLM does not hallucinate - it lacks the ability to do so - the algorithm calculated nonsense. It made an error. The quality of the output is directly tied to the quality of the training data; the most statistically likely outcome will neither be necessarily correct nor a novelty
 </div>
 </div></p>
-<p>This is not to belittle the capability of an LLM, it certainly has its use cases. I just think many people assume it provides correct answers or can solve more than humanity ever could.
-While LLM's are an impressive technology, this is wrong.</p>
+<p>This is not to belittle the capability of a LLM, it certainly has its use cases. I just think many people assume it provides correct answers or can solve more than humanity ever could.
+While LLM's are an impressive technology, this is assumtion does not hold.</p>
 <h2>What are known consequences of AI usage?</h2>
 <p>Okay, so the computer can talk now and genereate responses that could be interpretd as humanlike reactions.
 Lets make it automate all the things!
-Since people in a capitalist society are usually very happy if something threatens their livelihood in the form of automating their jobs - that should be without any negative consequences for the people living on this planet.
-I do feel a bit pranked by the world, to finish my degree in computational science just in time to become obsolete. Time to get my hands dirty and go back to the social science factory that opened in the valley a few weeks ago (<em>fuck</em>).</p>
+Since people in a capitalist society are usually unbothered if something threatens their livelihood in form of <s>taking</s> automating their jobs - that should be without any negative consequences for the people living in this economy... right?
+I <em>do</em> feel a bit pranked by the world, to finish my degree in computational science just in time to become obsolete. Time to get my hands dirty and go back to the social science factory that opened in the valley a few weeks ago (<em>fuck</em>).</p>
 <p>Okay, so let's first have a brief look at some changes that come with the usage and development of LLM's, shall we?</p>
 <h3>Automation</h3>
 <p>As I implied before, automating things could be a neat feature for society in large, since it would lead to less labor and more artsy or social stuff.
-This utopia will sadly fail due to the fact that the society is organized in a capitalistic way (which is not part of an utopia) and therefore the availability of paid labor is a necessity for the working people to afford... well anything at all.</p>
-<p>For the owners of stuff, that generate wealth on owning stuff - since others live or work within their stuff - automating work is a great idea.
-Automated labor only needs the upkeep and has no other interest like surviving or a decent behavior towards it on a personal level. Thats neat, one less thing to worry about.
-In short, it is more cost efficient for the owners of stuff.</p>
-<p>As it turns out the necessary research is already taking place.
+This utopia will sadly fail due to the fact that the society is organized in a capitalistic way (which is not part of utopia, I checked) and therefore the availability of paid labor is a necessity for the working people to afford... well anything to be honest.</p>
+<p>For the owners of stuff, that generate their wealth by owning stuff - since others live or work within their stuff - automating work soundslike a great idea.
+After all, automated labor only needs the upkeep and has no other interest like surviving or a decent behavior towards it on a personal level. One less thing to worry about.
+In short, it seemsto be more cost efficient for the owners of stuff to not have actual people do the work.</p>
+<p>As it turns out the necessary research about whom to replace first is already taking place.
 Anthropic(one of the LLM providers) recently published an economy report<a href="#1"><sup class="text-cyan-200 hover:text-cyan-300">1</sup></a> their LLM to investigate who is using it for what.
-And they found, that LLMs are used in some paid work for 75% of the tasks - within those identified occupations the LLM was used mostly in the middle income sector.
+And they found, that LLMs are used in some paid work for 75% of the tasks - within those identified occupations the LLM was used mostly in the midrange income sector.
 So upper management (who would have guessed) and physical labor seems to be off the hook for now<a href="#e"><sup class="text-cyan-200 hover:text-cyan-300">e</sup></a>.
-And that this is used for modifying parts of the task more often than generating the complete task - with the caveat of not knowing if the fully generated text may be modified afterward.
-That means businesses will take a look at the paper and afterwards at jobs that include the power users and try to reduce those jobs.
-The remaining people will probably be advised by the superiors to achieve the same output as before, but with the assistance of AI.
+They also found, that theit LLM is used for modifying more often than automating a task - with the caveat of not knowing if the fully generated task may be modified afterward.
+That means businesses will take a look at the paper then at jobs that are replacable with A LLM and try to reduce the headcount of those jobs.
+The remaining people will probably be advised by the superiors to achieve the same output as before, but with the assistance of LLMs.
 This pattern has been shown with technological advancements in the past - as rarely is an advancement for the people doing the labor.
 This already, to no surprise, has happened.
 The first group of humans suffering this loss of security were artists, following the rise of generated pictures.<a href="#2"><sup class="text-cyan-200 hover:text-cyan-300">2</sup></a>
@@ -168,29 +176,29 @@ This will happen to more and more humans as the LLM's will be used to replace th
 Which is a bad thing for people who need to sell their labor, what they must in a society based on capitalism.
 This in return is, again, a good thing for people who are owning the stuff.
 Now they can pay the remaining workes less - those are now easy to replace and their livelyhood depends on the job.</p>
-<p>Maybe this development will spark new jobs, so all will be fine, there will be a short turmoil and afterward everything will be back to normal.
-But let me entertain a question: If there are as many jobs (or more) required to automate something, as where without it - why would there be such an effort in the first place?
+<p>Sure, maybe this development will spark new jobsand everything will be fine - there will be a short turmoil and afterward all will be A-okay.
+Let me entertain a question:<br>
+If there are as many jobs (or more) required to automate something, as where without it - why would there be such an effort in the first place?
 It's in the nature of the automation, that it makes things less labor-intensive, hence requires fewer workers in total.
 That's the nature of the automation - it's whole purpose.
-Furthermore, the people who'll lose their jobs due to automation with an LLM will lack the skills to fill the roles with of few new jobs.</p>
+Furthermore, the people who'll lose their jobs due to LLM automation will likely lack the skills to fill the roles with of few new jobs. Those jobs require expertise mist people don't have.</p>
 <h3>Information</h3>
 <p>What a buzzkill - but is the generated output worth all of that?
 Let's at least have a look at stuff that is generated.
 There is no way around it anymore, anyway<a href="#5"><sup class="text-cyan-200 hover:text-cyan-300">5</sup></a>.
 Everyone and their grandmother is putting AI-Slop up on the internet.
 There are fully automated YouTube channels with hundreds of crappy videos, Meta tried to establish own AI Bots<a href="#f"><sup class="text-cyan-200 hover:text-cyan-300">f</sup></a> to make the decision to leave centralized social media even easier.
-Information gets harder and harder to find, since all SEO<a href="#g"><sup class="text-cyan-200 hover:text-cyan-300">g</sup></a> optimized websites write some nonsense that sound convincing until you realize it is the incoherent rabeling of an LLM and three minutes of your life will never come back.
+Information gets harder to find day by day, since all SEO<a href="#g"><sup class="text-cyan-200 hover:text-cyan-300">g</sup></a> optimized websites write some nonsense that sound convincing until you realize it is the incoherent rambeling of an LLM and three minutes of your life will never come back.
 It's as if someone had uploaded the magazines from the waiting room to hell.
-This trend is a problem for a decent information distribution within society as is the existence of deepfakes.
-I don't know if you heard about it, but voices and faces can be copied by AI in realtime - uncanny<a href="#4"><sup class="text-cyan-200 hover:text-cyan-300">4</sup></a>.
-It's also providing a decent websearch - since the original one, is <s>fucked by AI-Slob</s>... beyond saving as mentioned above.
-The AI Websearch at least condenses the aggregated AI-Slob in less AI-Slob.
+This trend poses a serious threat to any decent information distribution within society as is the existence of deepfakes.
+I don't know if you heard about it, but voices and faces can be copied by AI in realtime - uncanny<a href="#4"><sup class="text-cyan-200 hover:text-cyan-300">4</sup></a>, I know.
+In addition LLM companys also providing a decent websearch - since the original one, is <s>fucked by AI-Slob</s>... beyond saving as mentioned above.
+The AI Websearch at least condenses the aggregated AI-Slob into less AI-Slob.
 Nice, its inbred AI-Slob... but at least with some information.
-Only God knows if any of this has resembelance with the actual thing I wanted to research.
-Oh yeah, that may gives LLM's and their creators the power to distribute knowledge to their liking - uncanny, aswell.</p>
-<p>Nice, this is the perfect disater for anyone trying to research something.</p>
-<p>AI will automate jobs, the new jobs will require you to use AI in order to keep production up.
-Information will be filtered by AI and the source will be hard to find or read due to the constant generation and uploding of AI-Slob. At least the usage of LLM's on a regular basis is safe, right... right?</p>
+Only God knows if any of this information has any resembelance with the actual thing I wanted to research left.
+Oh yeah, that may gives LLM's and their creators the power to distribute knowledge to their liking - again, uncanny.</p>
+<p>Nice, this is the perfect disater for anyone trying to learn something.
+At least the usage of LLM's on a regular basis is safe, right?... Right!?</p>
 <h3>Critical Thinking</h3>
 <p><div class=" border-green-300 relative border-l">
 <div class="relative">
@@ -204,6 +212,12 @@ Additional to that, if the confidence in the own thinking is low the answers of 
 (Which they are not, we talked about that - they are a statistically likely sequence of symbols)</p>
 <p>In conclusion, using LLM's is threatening your income, your ability to think, they flood the internet with AI-Slob and pose a threat to free information flow. Awesome.
 Let's kill the Planet to train it even further. Yeah, it also is not the best thing that could happen regarding the climate crisis, but at this point - who cares? Just use an LLM for a while and you probably stop caring that much.</p>
+<p><div>
+<span class="text-green-500 text-md font-semibold">What have we learned?</span>
+<div class="mt-0 px-2 pt-1 border-l border-green-500 text-md font-semibold">
+LLMs will automate jobs, the new jobs will require you to use a LLM in order to keep production up. Information will be filtered by LLMs and the source will be hard to find or read due to the constant generation and uploding of AI-Slob. In Addition using an LLM in your daily life will reduce your ability to think for your self.
+</div>
+</div></p>
 <h2>How to overcome knowledge</h2>
 <p>Let's come back to the title of this post.
 The observant reader might have an idea, how this recent development in the tech industry has intermingling effects within the society and is in a pristine position to screw up some serious things for humankind.</p>
@@ -245,9 +259,10 @@ That sounds way better! We just have to think a world without the logic of capit
 <div class="text-xs mb-2 ml-6"><a name="c"><span class="text-cyan-300 ">c</span></a>: Alright, we went from necromancy to straight up hostile ... way to go ...</div>
 <div class="text-xs mb-2 ml-6"><a name="d"><span class="text-cyan-300 ">d</span></a>: The provided explanation is obviously whacky - if you are interested in a (infinitely better) explanation, check out this talk by Grant Sanderson. <a href="https://www.youtube.com/watch?v=KJtZARuO3JY" target="_blank">Link</a>.</div>
 <div class="text-xs mb-2 ml-6"><a name="e"><span class="text-cyan-300 ">e</span></a>: By the way, the following  will have an inpact on the physical labor jobs as well. There will be a lot of people looking for jobs and they will change branches to survive.</div>
-<div class="text-xs mb-2 ml-6"><a name="f"><span class="text-cyan-300 ">f</span></a>: There are many reasons to leave Meta anyway, have a read :D. <a href="https://random-gibberish.blog/posts/indieWeb/" target="_blank">Link</a>.</div>
+<div class="text-xs mb-2 ml-6"><a name="f"><span class="text-cyan-300 ">f</span></a>: There are many reasons to leave Meta anyway, have a read :D. <a href="/posts/indieWeb/" target="_blank"><span class="text-cyan-300 hover:text-cyan-400">Link</span></a>.</div>
 <div class="text-xs mb-2 ml-6"><a name="g"><span class="text-cyan-300 ">g</span></a>: Search engine optimization sounds like a decent joke in itself, considering the steady decline of the result quality.</div>
 <div class="text-xs mb-2 ml-6"><a name="h"><span class="text-cyan-300 ">h</span></a>: FUNFACT: this proces is the reaosn LLMs usually have trouble on their own to count the number of letters in given words. They operate on the tokens, not on the direct input.</div>
+<div class="text-xs mb-2 ml-6"><a name="i"><span class="text-cyan-300 ">i</span></a>: Have a read why good enough might be convincing for the human mind in this post. <a href="posts/The-virtuality-of-reality/" target="_blank"><span class="text-cyan-300 hover:text-cyan-400">Link</span></a>.</div>
 </div>
 <!-- Source End -->
 
@@ -267,7 +282,7 @@ hidden sm:flex
 text-sm text-green-400 font-mono mb-4 
             border-solid border-green-400 pt-2 
             md:pt-0 md:mb-4 border-t md:border-t-0 border-opacity-50">
-                // <h2 class="inline">say hi</h2>
+                // <h2 class="inline ml-2">whoami</h2>
 </div>
 
 
@@ -449,99 +464,6 @@ d=" M 75.35 877.108 L 76.047 879.949 L 70.414 881.359 L 69.717 878.517 C 65.094 
 
         </div>
         
-        <div class=" text-green-400">
-            // <h3 class="inline">taglist</h3>
-        </div>
-        <div class="ml-3 mb-3">
-            
-
-
-    
-
-    
-
-    
-        
-            
-        
-            
-                
-            
-        
-            
-                
-            
-        
-    
-
-    
-        
-            
-        
-            
-        
-            
-                
-            
-        
-            
-                
-            
-        
-    
-
-    
-        
-            
-        
-            
-                
-            
-        
-            
-        
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-
-
-
-    <span class="font-mono text-cyan-200 hover:text-cyan-300 text-xs">
-    <a href="/tags/doingStuff">#doingStuff</a>
-    </span>
-
-    <span class="font-mono text-cyan-200 hover:text-cyan-300 text-xs">
-    <a href="/tags/indie-web">#indie-web</a>
-    </span>
-
-    <span class="font-mono text-cyan-200 hover:text-cyan-300 text-xs">
-    <a href="/tags/life">#life</a>
-    </span>
-
-    <span class="font-mono text-cyan-200 hover:text-cyan-300 text-xs">
-    <a href="/tags/social-media">#social-media</a>
-    </span>
-
-    <span class="font-mono text-cyan-200 hover:text-cyan-300 text-xs">
-    <a href="/tags/VR">#VR</a>
-    </span>
-
-
-
-
-        </div>
-
        
 
 </div>
