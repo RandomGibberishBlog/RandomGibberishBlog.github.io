@@ -4,7 +4,7 @@
   <subtitle>Random Gibberish Blog</subtitle>
   <link href="https://randomgibberishblog.github.io//feed.xml" rel="self"/>
   <link href="https://randomgibberishblog.github.io/"/>
-  <updated>2025-02-25T00:00:00Z</updated>
+  <updated>2025-02-15T00:00:00Z</updated>
   <id>https://randomgibberishblog.github.io/</id>
   <author>
     <name>Patrick</name>
@@ -58,5 +58,20 @@
 </summary>
   </entry>
   
+  
+  
+  <entry>
+    <title>Knowledge and how to overcome it</title>
+    <link href="https://randomgibberishblog.github.io/posts/AI/"/>
+    <updated>2025-02-15T00:00:00Z</updated>
+    <id>https://randomgibberishblog.github.io/posts/AI/</id>
+
+   
+    <summary>
+  
+    I don't know, but have you heard of 'generative AI' of lately? It seems to be a thing now.
+  
+</summary>
+  </entry>
   
 </feed>
