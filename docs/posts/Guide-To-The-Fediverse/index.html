@@ -122,36 +122,37 @@ A hundred years passed and my peers and I discovered the new decentralized conte
 But I believe the Fediverse can save the world.</p>
 </blockquote>
 <h2>a little motivation</h2>
-<p>In my previous post <a href="/posts/indieWeb/" target="_blank"> <span class="text-cyan-200 hover:text-cyan-300">Enter the Indie Web</span></a>, I provided some reasons to ditch the established corporate 'social' media platforms
-In this post, I want to focus more on the root cause of the current situation: The platforms are owned by a central entity and can change in its behalf without caring about its users<a href="#2"><sup class="text-cyan-200 hover:text-cyan-300">2</sup></a>.
+<p>In my previous post <a href="/posts/indieWeb/" target="_blank"> <span class="text-cyan-200 hover:text-cyan-300">Enter the Indie Web</span></a>, I provided some reasons to ditch the established corporate 'social' media platforms.
+<em>This</em> post is more focused on the root cause of the current situation: The platforms are each owned by a central entity and can change without caring about its users<a href="#2"><sup class="text-cyan-200 hover:text-cyan-300">2</sup></a>.
 Therefore, the owners yield an ungodly amount of power over the information the user get to see.
 Within the walled gardens of the corporate web, people can not easily leave without leaving their memories and friends behind.
-In consequence, for the inmates of the corporate platforms have to tailor their content to the likings of their owners.
-Additionally, the users have to keep an eye on the user numbers for each platform, to evaluate if the engagement is feasible at all.
+In consequence, for the inmates of the corporate walled gardens, they have to tailor their content to the likings of their owners.
+Additionally, if a platform only has a few users, other people may ignore the platform entirely.
+Since the platforms keep their users locked in, they won't be able to interact with users of other services.
 That makes it difficult for new platforms to emerge - even if their functionality is superior to the established ones.</p>
 <p>Let me entertain a different approach to evolve from a corporate web to a social web:
-Wouldn't it me nice to join any platform, that provides features for the activities you enjoy, with the ability to connect to accounts on other platforms without any barrier?
+Wouldn't it be nice to join any platform, that provides features for the activities you enjoy, with the ability to connect to accounts on other platforms without any barrier?
 Next, wouldn't it be nice if that Idea was free to use and owned by no one?
 Lastly, what if you could just move your Account from one platform to another without loosing any of your contacts or content?
 This is the foundational idea of the Fediverse...</p>
-<p>Let's find out what the Fediverse is, how it works and where to find resources!</p>
+<p>Get on my horse, I'll show you 'round the Fediverse!</p>
 <h2>what is the Fediverse?</h2>
 <p>Okay, let's have a look at the foundational concept of the Fediverse.
 The first thing that everybody mentions, when talking about the Fediverse is, that it is decentralized.</p>
 <p><strong>What does that mean? Here's an example:</strong><br>
 <em>Facebook is owned</em> by one Person, the code is proprietary, and the service runs on the servers of the according company Meta.
-If the owner of Meta decides to change his platform, all the people on his platform have to either endure his decision or give up their account.
-And with that their account, their memories and contacts as well.<br>
+If the owner of Meta decides to change his platform, all the people on his platform have to either endure his decision or give up their accounts.
+And with their account, their memories and contacts as well.<br>
 <em>A service like Mastodon</em> on the other hand is not focused on locking users in their platform - the opposite is the case.
 Since the Code for the Application is open-source, everybody with an internet access and a computer can run the service.</p>
 <p><div></p>
 <p><div class="mt-0 px-2 pt-1 border-l border-green-500 text-md font-semibold">
-Users of any service or platform of the fediverse can interact with other users of any fediverse platform
+Users of any service or platform of the Fediverse can interact with other users of any Fediverse platform
 </div>
 </div></p>
 <p>If you, for example, decide to run Mastodon on your Server, it is called an instance (of Mastodon).
 Those instances can interact with each other and thus form a federated and decentralized network of instances, that are not owned nor controlled by any <em>one</em> person.
-If a server applies rules you are not happy with, you can move to another server that is more appealing to you - you will still be able to interact with all the people of servers that are in the federation.
+If a server applies rules you are not happy with, you can move to another server that is more appealing to you - you'll still be able to interact with all the people of servers that are in the federation.
 But even better, while centralized social media platforms usually try to keep you in their walled gardens and hinder you to use the services of the competition, services within the Fediverse encourage you to interact with content of different services.
 It is all based on the <a href="https://activitypub.rocks/" target="_blank"> ActivityPub</a> protocol.</p>
 <p><div class=" border-green-300 relative border-l">
@@ -162,14 +163,14 @@ It is all based on the <a href="https://activitypub.rocks/" target="_blank"> Act
 <div class="w-full text-justify text-xs block ml-2 mb-1 text-green-200">// Description: I drew a quick sketch on how the protocol operates for you!</div>
 </div>
 </div></p>
-<p><em>Maybe some further description of the picture is needed.</em>
+<p><em>Maybe</em> some further description of the picture is needed.
 Let me explain.
 Say, I have an account on a certain Mastodon Instance - since it uses the ActivityPub protocol, it is able to connect to all the other platforms of the Fediverse. And, thanks to that, so am I.
 The Moment I post something on <a href="https://freeradical.zone/@RGBlog" target="_blank"> my mastodon profile</a> it is stored on the outbox of that instance.
 Every other service within <em>the unknown web</em> that uses ActivityPub as well <strong>and is federated with</strong> is now able to request that content.
-If I, now,  wanted to interact with someone on a different mastodon instance (or even an instance of a different Fediverse service) I can look them up within my profile and request their content. The requested content will be stored in the Inbox of the instance my profile lives on  and I can access it.</p>
+If I, now,  wanted to interact with someone on a different mastodon instance (or even an instance of a different Fediverse service) I can look them up with my instance and request their content. The requested content will be stored in the Inbox of the instance my profile lives on  and I can access it.</p>
 <p><strong>Nice, what about Troling and Spamming?</strong> <br>
-If a person now for some stupid reason decides to move fast and break things to disrupt something<a href="#b"><sup class="text-cyan-200 hover:text-cyan-300">b</sup></a>, and establishes a mastodon instance for that purpose. What now? This account can not be removed from their instance, since they own it.
+A person now for some stupid reason decides to move fast and break things to disrupt something<a href="#b"><sup class="text-cyan-200 hover:text-cyan-300">b</sup></a>, and establishes a mastodon instance for that purpose. What now? This account can't be removed from their instance, since they Are the admin there.
 However, there is an easy solution to that: other instances can simply deny this instance the federation.
 Their content will not be visible on those instances. They will spam on their own little shitty island of Spam.<a href="#3"><sup class="text-cyan-200 hover:text-cyan-300">3</sup></a>
 If your users want to see the content regardless, they can simply move their account to another instance that fits their needs - hence, buying a popular Fediverse instance is a rather stupid idea<a href="#4"><sup class="text-cyan-200 hover:text-cyan-300">4</sup></a>. It's no walled garden, people can leave without consequence.
@@ -183,8 +184,8 @@ You can connect to everyone in the Fediverse with only one account - everybody c
 </div>
 </div></p>
 <h2>how can you join the Fediverse?</h2>
-<p>Understandably you are now keen to explore the Fediverse.
-But it is dangerous to go alone, here take this <a href="https://fediverse.party/" target="_blank"> map of the Fediverse</a>.
+<p>Understandably, you are now keen to explore the Fediverse yourself.
+But since it is dangerous to go alone: here, take this <a href="https://fediverse.party/" target="_blank"> map of the Fediverse</a>.
 Here you'll get an overview on what services are available within the Fediverse, and it will guide you on your journey.
 Take your time. Look at the listed services and choose one that appeals to you.</p>
 <p>I'll just wait here 'till you are back.</p>
@@ -197,12 +198,13 @@ Take your time. Look at the listed services and choose one that appeals to you.<
 <div class="w-full text-justify text-xs block ml-2 mb-1 text-green-200">// Description: just chillin'</div>
 </div>
 </div></p>
-<p>Oh, great you have returned! Nice to see you again :D<br>
-Now that you found a service that sparks joy, go look for an instance of your chosen platform.
-On the descriptions of the respective platforms, you'll find a list of instances you can sign up to, to start your journey into the Fediverse.
-You will probably have to apply for an account, since the Instances are moderated.
+<p>Oh, great, you have returned! Nice to see you again :D<br>
+Now that you found a service that sparks joy, go and look out for a cosy instance of that service.
+On your <a href="https://fediverse.party/" target="_blank"> map</a> each entry has a list of instances you can sign up to. From there you can start your journey into the Fediverse.
+You will probably have to apply for an account, since the Instances are moderated by other people.<br>
 Afterwards the air will be fresher, the water clearer and earth earthier - you are now [hall effect]<em>part of the Fediverse</em> [/hall effect]!
-With your new profile and the corresponding profile handle, <code>@&lt;username&gt;@&lt;server&gt;</code> nothing can stop you.
+With your new profile, nothing can stop you.
+And don't overthink it, you can move your account to another instance at any point in time.
 You have entered the gateway into the Fediverse - one account to befriend them all.<a href="#6"><sup class="text-cyan-200 hover:text-cyan-300">6</sup></a></p>
 <p><div>
 <span class="text-green-500 text-md font-semibold">How to enter the Fediverse:</span>
@@ -211,19 +213,21 @@ You find a service you want to participate in, you look for a server you enjoy a
 </div>
 </div></p>
 <h2>using the Fediverse</h2>
-<p>As you start your first steps into the Fediverse, you may think to your self: it's a bit boring isn't it?.</p>
-<p>That's your cold turkey of the algorithm. You will get through that.
+<p>As you start your first steps into the Fediverse, you may think to your self: it's a bit boring, isn't it?.</p>
+<p>That's just the cold turkey of the algorithm you are used to. You will get through that.
 Nothing on the Fediverse is trying to maximize your time on a platform.
-It is okay if you persue other hobies and come back in a week. The platforms are a service to <em>you</em> that <em>you</em> can use if you want to.
-Not because they made you addicted to watching videos of Temple Run 'gameplay' narrated by an AI voice reading lists of reddit comments.
+It is okay if you pursue other hobbies and come back in a week. The platforms are a service to <em>you</em> that <em>you</em> can use if you want to.
+Not because they made you addicted to watching videos of Temple Run 'gameplay' narrated by an AI voice reading lists of Reddit comments.
 Content is not shoved down your throat at every second with a new reel with an algorithm that is designed to keep you engaged as long as possible.</p>
 <p><div></p>
 <p><div class="mt-0 px-2 pt-1 border-l border-green-500 text-md font-semibold">
-<em>You</em> see the content <em>you</em> decided to follow.<br><em>You</em> have to look for things that interests <em>you</em><br>The platform neither pushs rage bait nor does it add advertisement to <em>your</em> timeline.<br><br><em>You</em> decide what to see.
+<em>You</em> see the content <em>you</em> decided to follow.<br><em>You</em> have to look for things that interests <em>you</em><br>The platform neither pushes rage bait nor does it add advertisement to <em>your</em> timeline.<br><br><em>You</em> decide what to see.
 </div>
 </div></p>
-<p>Other than that, it's business as usual, you know the drill - start following Hashtags or join groups, look for likeminded people - start or join a community.
-The key difference is, you can follow people on other platforms, and you will see their posts in your newsfeed.
+<p>Other than that, it's business as usual, you know the drill - start following Hashtags or join groups, look for like-minded people - start or join a community.
+Or have a look at the 'Explore' section to find new and interesting content of your instance.
+If you rather like a kickstart for your feed, you also can subscribe to a follow list. They usually contain profiles with a certain content focus and are a great starting point.</p>
+<p>The key difference is, you can follow people on other platforms, and you will see their posts in your newsfeed.
 It's like subscribing to a YouTube channel while being on Instagram
 (in that case it would be <a href="https://joinpeertube.org/" target="_blank"> PeerTube</a> and <a href="https://pixelfed.org/" target="_blank"> pixelfed</a> - and without ads).
 You can interact with the content without leaving your instance (This is made possible by the ActivityPub protocol and the inbox of your instance, you may remember).
@@ -233,28 +237,14 @@ It puts you in the position to decide for yourself, a position, the corporate we
 <p><strong>Some resources to look into</strong>:<br>
 To end this post, I'll just share some resources I stumbled upon while getting a hold on the Fediverse.</p>
 <ul>
-<li><a href="https://fedi.tips/" target="_blank"> Fedi.tips</a>
-<ul>
-<li>This provides a neat FAQ regarding the Fediverse as a whole. How to interact, what servers to chose</li>
+<li><a href="https://fedi.tips/" target="_blank"> Fedi.tips</a>:  This provides a neat FAQ regarding the Fediverse as a whole. How to interact, what servers to chose</li>
+<li><a href="https://sepiasearch.org/" target="_blank"> Sepia Search</a>: A service searching for videos on multiple PeerTube instances</li>
+<li><a href="https://fedi.garden/" target="_blank"> fedi.garden</a>: A Mastodon Guide and Server list</li>
+<li><a href="https://fediverse.party/" target="_blank"> fediverse.party</a>: A List of many Services that are part of the Fediverse, including Server lists</li>
+<li><a href="https://fedidevs.com/starter-packs/" target="_blank"> Fediverse Starterpacks</a>: A collection of topic specific follwer lists</li>
 </ul>
-</li>
-<li><a href="https://sepiasearch.org/" target="_blank"> Sepia Search</a>
-<ul>
-<li>A service searching for videos on multiple PeerTube instances</li>
-</ul>
-</li>
-<li><a href="https://fedi.garden/" target="_blank"> fedi.garden</a>
-<ul>
-<li>A Mastodon Guide and Server list</li>
-</ul>
-</li>
-<li><a href="https://fediverse.party/" target="_blank"> fediverse.party</a>
-<ul>
-<li>A List of many Services that are part of the Fediverse, including Server lists</li>
-</ul>
-</li>
-</ul>
-<p>I'm done, you go explore the Fediverse now :)<!-- Source Start --></p>
+<p>I'm done, you go explore the Fediverse now :)</p>
+<!-- Source Start -->
 <div class="border-t ">
 <p><span class="text-green-500 text-sm mb-1">// sources </span></p>
 <div class="text-xs mb-2 ml-6"><a name="1"><span class="text-cyan-300 ">1</span></a>: Wikipedia Prepares for 'Increase in Threats' to US Editors From Musk and His Allies. <a href="https://www.404media.co/wikipedia-prepares-for-increase-in-threats-to-us-editors-from-musk-and-his-allies/" target="_blank">Link</a>.</div>
@@ -524,6 +514,8 @@ d=" M 75.35 877.108 L 76.047 879.949 L 70.414 881.359 L 69.717 878.517 C 65.094 
     
 
     
+
+    
         
             
         
@@ -555,6 +547,10 @@ d=" M 75.35 877.108 L 76.047 879.949 L 70.414 881.359 L 69.717 878.517 C 65.094 
                 
             
         
+    
+
+    
+
     
 
     
