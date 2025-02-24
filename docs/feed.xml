@@ -4,7 +4,7 @@
   <subtitle>Random Gibberish Blog</subtitle>
   <link href="https://random-gibberish.blog/feed.xml" rel="self"/>
   <link href="https://random-gibberish.blog"/>
-  <updated>2025-02-15T00:00:00Z</updated>
+  <updated>2025-02-25T00:00:00Z</updated>
   <id>https://random-gibberish.blog</id>
   <author>
     <name>Patrick</name>
@@ -70,6 +70,22 @@
     <summary>
   
     I don't know, but have you heard of 'generative AI' of lately? It seems to be a thing now.
+  
+</summary>
+  </entry>
+  
+  
+  
+  <entry>
+    <title>A Hitchhiker&#39;s Guide to the Fediverse</title>
+    <link href="https://random-gibberish.blog/posts/Guide-To-The-Fediverse/"/>
+    <updated>2025-02-25T00:00:00Z</updated>
+    <id>https://random-gibberish.blog/posts/Guide-To-The-Fediverse/</id>
+
+   
+    <summary>
+  
+    Long ago, the online communities coexisted together in harmony. Then, everything changed when the corporate web attacked. Only the RSS-feed, a decentralized content distribution, could stop them, but when the world needed it most, it vanished.
   
 </summary>
   </entry>
